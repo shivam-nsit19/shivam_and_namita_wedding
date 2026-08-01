@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Join us in celebrating our wedding">
+  <title>Namita & Shivam — Wedding</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <header class="site-header" id="home">
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#home" class="nav-logo">N & S</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#map">Map</a></li>
+        <li><a href="#rsvp">RSVP</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="./images/ganesha.jpg" alt="Lord Ganesha" class="hero-ganesha">
+      <div class="hero-sanskrit">॥ श्री गणेशाय नमः ॥</div>
+      
+      <div class="hero-monogram-container">
+        <div class="hero-mandala-bg" aria-hidden="true"></div>
+        <div class="hero-initials">N & S</div>
+      </div>
+      
+      <div class="hero-content">
+        <h1 class="hero-names" id="couple-names">Namita & Shivam</h1>
+        <p class="hero-date" id="wedding-date-display">December 5, 2026</p>
+        <p class="hero-tagline" id="tagline">Two hearts, one beautiful journey</p>
+        <a href="#rsvp" class="btn btn-primary">RSVP Now</a>
+      </div>
+    </section>
+
+    <section class="countdown section" aria-label="Countdown to wedding">
+      <div class="container">
+        <h2 class="section-title">Counting Down</h2>
+        <div class="countdown-grid" id="countdown">
+          <div class="countdown-item">
+            <span class="countdown-value" id="countdown-days">--</span>
+            <span class="countdown-label">Days</span>
+          </div>
+          <div class="countdown-item">
+            <span class="countdown-value" id="countdown-hours">--</span>
+            <span class="countdown-label">Hours</span>
+          </div>
+          <div class="countdown-item">
+            <span class="countdown-value" id="countdown-minutes">--</span>
+            <span class="countdown-label">Minutes</span>
+          </div>
+          <div class="countdown-item">
+            <span class="countdown-value" id="countdown-seconds">--</span>
+            <span class="countdown-label">Seconds</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="story section" id="story">
+      <div class="container container-narrow">
+        <h2 class="section-title">Our Story</h2>
+        <div class="story-content">
+          <p>We’re quite different in the best possible way. Shivam is the easy-going, “take a chill pill” kind of person. Namita, on the other hand, a solid planner and occasionally hits the panic button. Somehow, we balance each other perfectly and just make sense together.</p>
+          <p>The best part? Neither of us was looking for love when we met.</p>
+          <p>Shivam had simply come to meet an old school friend. Namita, meanwhile, was recovering from a terrible bout of food poisoning and, in all honesty, should have stayed home. But for reasons we’ll never understand, she showed up anyway in a low-effort T-shirt, jeans, and absolutely no intention of impressing anyone.</p>
+          <p>As they say, no matter how you feel, just dress up and show up. Turns out, that’s some pretty solid advice.</p>
+          <p>One meeting. A conversation that somehow revolved around nausea and puking. A few laughs. And before we knew it, we had found something neither of us was expecting.</p>
+          <p>Who would’ve thought destiny had such a beautiful love story in store for us?</p>
+          <p>And now, here we are ready to begin our forever as husband and wife. We can’t wait to celebrate this special day with all of you.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="events section" id="events">
+      <div class="container">
+        <h2 class="section-title">Celebrations</h2>
+        <p class="section-subtitle">Click each event to view details</p>
+        <div class="event-accordion" id="event-accordion" role="list"></div>
+      </div>
+    </section>
+
+    <section class="map-section section" id="map">
+      <div class="container">
+        <h2 class="section-title">Find Us</h2>
+        <p class="section-subtitle">Main wedding venue</p>
+        <div class="map-wrapper">
+          <iframe
+            id="primary-map"
+            title="Wedding venue map"
+            width="100%"
+            height="400"
+            style="border:0;"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery section removed -->
+
+    <section class="rsvp section" id="rsvp">
+      <div class="container">
+        <h2 class="section-title">RSVP</h2>
+        <p class="section-subtitle">We hope you can join us. Please respond by filling out the form below.</p>
+        <div class="rsvp-actions">
+          <a href="#" id="rsvp-button" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+            RSVP Now
+          </a>
+        </div>
+        <details class="rsvp-embed-toggle">
+          <summary>Fill out the form here</summary>
+          <div class="rsvp-embed-wrapper">
+            <iframe
+              id="rsvp-iframe"
+              title="RSVP form"
+              width="100%"
+              height="800"
+              frameborder="0"
+              marginheight="0"
+              marginwidth="0">
+              Loading…
+            </iframe>
+          </div>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-hashtag" id="hashtag">#NamitaAndShivam2026</p>
+      <p class="footer-note">For any questions, please reach out to the family.</p>
+      <p class="footer-love">Made with love</p>
+    </div>
+  </footer>
+
+  <script src="./data/events.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>

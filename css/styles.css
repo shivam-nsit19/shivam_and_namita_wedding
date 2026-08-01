@@ -631,6 +631,25 @@ a:hover {
   margin-bottom: 3rem;
 }
 
+.rsvp-shlok {
+  font-family: var(--font-sanskrit);
+  font-size: clamp(1.4rem, 3vw, 1.8rem);
+  color: var(--color-accent-dark);
+  text-align: center;
+  margin-top: 3rem;
+  line-height: 1.6;
+  white-space: pre-line;
+}
+
+.rsvp-shlok-translation {
+  font-size: 1.05rem;
+  font-style: italic;
+  color: var(--color-text-muted);
+  text-align: center;
+  margin-top: 0.75rem;
+  line-height: 1.6;
+}
+
 .rsvp-embed-toggle {
   max-width: 800px;
   margin: 0 auto;

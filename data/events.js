@@ -17,7 +17,7 @@ const EVENTS = [
     time: 'Morning',
     venue: 'Community Centre',
     address: 'Daffodils Apartment Sector 6 Dwarka 110075',
-    dressCode: 'Shades of Yellow, Mustard & Sunshine Hues',
+    dressCode: 'Sunshine Hues - Colour Palette: Shades of Yellow, Mustard & Sunshine Hues',
     mapEmbed: '',
   },
   {
@@ -27,7 +27,7 @@ const EVENTS = [
     time: 'Night',
     venue: 'Priyanka Party Hall',
     address: 'Vandana International School, behind Dwarka Court, Sector 10 Dwarka, Dwarka, New Delhi, Delhi, 110075',
-    dressCode: 'Bling It On!',
+    dressCode: 'Bling it on! - Sequins, shimmer, metallics, vibrant colours—this is your chance to go all out! Bring your best party look because we’re dancing the night away.',
     mapEmbed:
       'https://maps.google.com/maps?q=Priyanka+Party+Hall,+Vandana+International+School,+Sector+10+Dwarka,+New+Delhi&t=&z=15&ie=UTF8&iwloc=&output=embed',
   },
@@ -38,7 +38,7 @@ const EVENTS = [
     time: '06:00 PM Onwards',
     venue: 'Gokul Garden',
     address: '306-T, Data Ram Marg, Sector 7 Dwarka, New Delhi - 110075',
-    dressCode: 'Traditional Elegance',
+    dressCode: 'Traditional Vibes - Celebrate with us in your favourite ethnic attire. Whether it’s a saree, lehenga, kurta, sherwani or bandhagala, we’d love to see everyone dressed in their festive best.',
     mapEmbed:
       'https://maps.google.com/maps?q=Gokul+Garden,+306-T,+Data+Ram+Marg,+Sector+7+Dwarka,+New+Delhi&t=&z=15&ie=UTF8&iwloc=&output=embed',
   },

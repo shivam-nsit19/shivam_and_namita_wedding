@@ -1,7 +1,7 @@
 const EVENTS = [
   {
     id: 'tilak',
-    name: 'Tilak',
+    name: 'Sagai / Tilak',
     date: 'December 3, 2026',
     time: 'TBD',
     venue: 'Priyanka Party Hall',

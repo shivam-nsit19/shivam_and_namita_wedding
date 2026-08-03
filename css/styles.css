@@ -287,8 +287,8 @@ a:hover {
 
 .hero-monogram-container {
   position: relative;
-  width: 250px;
-  height: 250px;
+  width: 320px;
+  height: 320px;
   margin: 0 auto 3rem;
   display: flex;
   align-items: center;
@@ -302,12 +302,13 @@ a:hover {
   inset: 0;
   background: url('../images/mandala.jpg') center / contain no-repeat;
   opacity: 0.15;
+  border-radius: 50%;
   animation: slowSpin 60s linear infinite;
 }
 
 .hero-initials {
   font-family: var(--font-heading);
-  font-size: 4rem;
+  font-size: 4.5rem;
   color: var(--color-accent);
   z-index: 1;
   text-shadow: 1px 1px 0 #fff;
@@ -317,7 +318,7 @@ a:hover {
   font-family: var(--font-heading);
   font-size: clamp(2rem, 5vw, 3.5rem);
   font-weight: 700;
-  color: var(--color-text);
+  color: var(--color-accent-dark);
   margin-bottom: 1rem;
   letter-spacing: 0.05em;
   opacity: 0;

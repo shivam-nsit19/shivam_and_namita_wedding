@@ -159,6 +159,52 @@ a:hover {
   font-weight: 700;
   color: var(--color-accent-dark);
   letter-spacing: 0.1em;
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo-amp {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  color: var(--color-accent);
+  font-size: 1.3rem;
+  margin: 0 0.15rem;
+}
+
+.nav-monogram {
+  position: relative;
+  width: 58px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-bg); /* Matches site ivory background exactly */
+}
+
+.nav-monogram-ring {
+  position: absolute;
+  inset: 0;
+  border: 1.5px solid var(--color-accent);
+  border-radius: 50%;
+  opacity: 0.7;
+}
+
+.nav-monogram-text {
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  letter-spacing: 0.05em;
+  z-index: 1;
+  line-height: 1;
+}
+
+.nav-monogram-text em {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 0.85rem;
+  color: var(--color-accent-dark);
+  margin: 0 1px;
 }
 
 .nav-links {

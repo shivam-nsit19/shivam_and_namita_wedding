@@ -23,14 +23,6 @@
     if (taglineEl) taglineEl.textContent = WEDDING_CONFIG.tagline;
     if (hashtagEl) hashtagEl.textContent = WEDDING_CONFIG.hashtag;
 
-    if (navLogo) {
-      const initials = WEDDING_CONFIG.coupleNames
-        .split('&')
-        .map(function (part) { return part.trim().charAt(0).toUpperCase(); })
-        .join(' & ');
-      navLogo.textContent = initials || 'W';
-    }
-
     const primaryMap = document.getElementById('primary-map');
     if (primaryMap && WEDDING_CONFIG.primaryMapEmbed) {
       primaryMap.src = WEDDING_CONFIG.primaryMapEmbed;
@@ -178,10 +170,21 @@
     }
   }
 
+  function initScrollToTop() {
+    const navLogo = document.querySelector('.nav-logo');
+    if (navLogo) {
+      navLogo.addEventListener('click', function (e) {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
+  }
+
   document.addEventListener('DOMContentLoaded', function () {
     initConfig();
     renderEvents();
     initCountdown();
     initNav();
+    initScrollToTop();
   });
 })();

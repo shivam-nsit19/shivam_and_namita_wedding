@@ -49,7 +49,7 @@ const WEDDING_CONFIG = {
   weddingDate: '2026-12-05',
   weddingDateDisplay: 'December 5, 2026',
   tagline: 'Two hearts, one beautiful journey',
-  hashtag: '#NamitaAndShivam2026',
+  hashtag: '#LoJiHoGayiShaadi',
   primaryMapEmbed:
     'https://maps.google.com/maps?q=Gokul+Garden,+306-T,+Data+Ram+Marg,+Sector+7+Dwarka,+New+Delhi&t=&z=15&ie=UTF8&iwloc=&output=embed',
   rsvpFormUrl: 'https://docs.google.com/forms/d/e/1FAIpQLScpfrjJyiTDqHE7RDZz8N6g4aEQfvFUKapqQLOjCwBSv4hQYA/viewform',
